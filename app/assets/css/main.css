@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+  /* fonts families */
+  --font-main: 'Montserrat', sans-serif;
+  --font-secondary: 'Cormorant Garamond', sans-serif;
+
+  /* colors */
+  --color-main: #f6f6f1e8;
+  --color-black: #08080A;
+}
