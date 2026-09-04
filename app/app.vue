@@ -2,7 +2,7 @@
   <div
     class="bg-black text-white w-full h-screen relative z-0 justify-center items-center flex flex-col"
   >
-    <Header class="absolute top-0 w-full z-9" />
+    <Header class="fixed top-0 w-full z-9" />
     <div class="relative flex flex-col z-1 w-fit items-center bg-grey-500">
       <span class="text-3xl uppercase font-main max-w-[500px] text-center">{{
         t('home.first')
