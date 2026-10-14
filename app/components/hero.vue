@@ -9,6 +9,6 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
   import Image from './image.vue';
 </script>

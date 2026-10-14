@@ -4,14 +4,9 @@
 
 Durante gran parte de mi trayectoria, trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto.
   </span>
-  <Image class="size-[30px]" image-url="media/vue-logo.webp" />
-  <Image class="size-[30px]" image-url="media/nuxt-logo.webp" />
-  <Image class="size-[30px]" image-url="media/jekyll-logo.webp" />
-  <Image class="size-[30px]" image-url="media/tailwind-logo.webp" />
-  <Image class="size-[30px]" image-url="media/javascript-logo.webp" />
-  <Image class="size-[30px]" image-url="media/typescript-logo.webp" />
-  <Image class="size-[30px]" image-url="media/cloudflare-logo.webp" />
-  <Image class="size-[30px]" image-url="media/aws-logo.webp" />
+  <div class="flex">
+    <Image v-for="logo in logos" class="size-[30px]" :image-url="`media/${logo}.webp`"/>
+  </div>
 
   <span>IA
 
@@ -22,6 +17,6 @@ Verifico la información obtenida y reviso los resultados para garantizar su pre
 </template>
 
 
-<script>
-  const logos = []
+<script setup lang="ts">
+  const logos = ['vue-logo', 'nuxt-logo', 'jekyll-logo', 'tailwind-logo', 'javascript-logo', 'typescript-logo', 'cloudflare-logo', 'aws-logo'];
 </script>
