@@ -3,7 +3,7 @@
     <Spinner class="w-40 h-40 animate-spin" />
   </div>
   <div v-else-if="error">Failed</div>
-  <img v-else class="size-90" :src="imageUrl" alt="Copas" />
+  <img v-else :class="size" :src="imageUrl" alt="Copas" />
 </template>
 
 <script setup lang="ts">
@@ -14,6 +14,10 @@ const props = defineProps({
   imageUrl: {
     type: String,
     required: true,
+  },
+  size: {
+    type: String,
+    default: 'size-90',
   },
 })
 

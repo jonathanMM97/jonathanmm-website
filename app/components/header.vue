@@ -1,6 +1,10 @@
 <template>
-  <header class="flex gap-2 mt-4 justify-between items-center">
-    <Image class="size-[100px]" image-url="/media/logo.png" />
+  <header
+    class="flex gap-2 bg-black mask-[linear-gradient(to_bottom,black_70%,transparent_100%)] mt-4 justify-between items-center"
+  >
+    <div class="flex relative size-25">
+      <Image class="size-25!" image-url="/media/logo.png" />
+    </div>
     <div class="flex flex-col mr-4 text-black relative">
       <div
         class="flex gap-1 justify-between bg-main px-4 py-2 rounded-2xl w-[71px] cursor-pointer"

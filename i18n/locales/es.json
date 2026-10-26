@@ -4,6 +4,11 @@
       "title": "Home"
     },
     "first": "Creando portfolio de Jonathan M. M.",
-    "second": "Sentimos las molestias"
+    "second": "Sentimos las molestias",
+    "hero": {
+      "comment-1": "// Hey, Soy Jonathan Muñoz Morales",
+      "title": "<span class='text-secondary'><span class='text-secondary!'>Ingeniero Informático</span>, especializado en <span class='text-terciary'>Frontend Developer</span>.</span>",
+      "description": "Soy Jonathan, ingeniero informático con mas de 3 años de experiencia como Frontend Developer, además de tener varios proyectos como freeland trabajando en la parte de frontend y backend."
+    }
   }
 }

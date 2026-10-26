@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-black text-white w-full h-screen relative z-0 justify-center items-center flex flex-col"
+    class="bg-black text-white w-full h-full relative z-0 justify-center items-center flex flex-col"
   >
     <Header class="fixed top-0 w-full z-9" />
-    <div class="relative flex flex-col z-1 w-fit items-center bg-grey-500">
+    <div class="relative flex flex-col z-1 w-fit h-full bg-grey-500 pt-40 px-10">
       <Hero />
       <Experiencia />
     </div>
