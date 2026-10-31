@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex gap-2 bg-black mask-[linear-gradient(to_bottom,black_70%,transparent_100%)] mt-4 justify-between items-center"
+    class="flex gap-2 bg-black mask-[linear-gradient(to_bottom,black_70%,transparent_100%)] pt-4 justify-between items-center"
   >
     <div class="flex relative size-25">
       <Image class="size-25!" image-url="/media/logo.png" />

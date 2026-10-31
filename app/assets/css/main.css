@@ -1,13 +1,24 @@
 @import 'tailwindcss';
 
+@source "../../../i18n";
+
 @theme {
   /* fonts families */
   --font-main: 'Montserrat', sans-serif;
   --font-secondary: 'Cormorant Garamond', sans-serif;
+  --font-terciary: 'JetBrains Mono', 'sans-serif';
 
   /* colors */
   --color-main: #f6f6f1e8;
-  --color-terciary: #0EA5E9;
-  --color-black: #08080A;
+  --color-gray: #1a1a1d;
+  --color-terciary: #0ea5e9;
+  --color-black: #08080a;
+  --color-black-light: #131315;
+  --color-black-extra-light: #34343A;
+  --color-light: #78787e;
   --color-secondary: #c23f39;
+}
+
+@utility guide {
+  list-style-type: "- ";
 }

@@ -1,25 +1,12 @@
 <template>
-  <div class="flex gap-2 items-center">
-    <span class="relative flex size-3">
-      <span
-        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-75"
-      ></span>
-      <span
-        class="relative inline-flex size-3 rounded-full bg-secondary"
-      ></span>
-    </span>
-    <span class="font-main">{{ t('home.hero.comment-1')}}</span>
-  </div>
-  <div class="flex font-main">
-    <div class="max-w-150 flex flex-col">
-      <div class="text-[50px] text-lg font-semibold"
+  <SectionName :comment="t('home.hero.comment-1')" />
+  <div class="flex font-main py-6">
+    <div class="max-w-150 gap-2 flex flex-col">
+      <div
+        class="text-[50px] tracking-tight leading-[1.08] text-lg font-semibold"
         v-html="t('home.hero.title')"
       />
-      <span class="text-lg"
-        >Soy Jonathan, ingeniero informático con mas de 3 años de experiencia
-        como Frontend Developer, además de tener varios proyectos como freeland
-        trabajando en la parte de frontend y backend.</span
-      >
+      <span class="text-lg">{{ t('home.hero.description') }}</span>
     </div>
     <div class="w-85 h-105 p-2 ml-auto z-0 relative">
       <Image
@@ -37,6 +24,7 @@
 
 <script setup lang="ts">
 import Image from './image.vue'
+import SectionName from '~/components/section-name.vue'
 
 const { t } = useI18n()
 </script>
