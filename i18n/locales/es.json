@@ -8,25 +8,47 @@
     "hero": {
       "comment-1": "// Hey, Soy Jonathan Muñoz Morales",
       "title": "Ingeniero Informático, especializado en <span class='text-secondary'>Frontend Developer</span>",
-      "description": "Soy Jonathan, ingeniero informático con mas de 3 años de experiencia como Frontend Developer, además de tener varios proyectos como freeland trabajando en la parte de frontend y backend.",
-      "experience": {
-        "comment-1": "// 01 · Mi experiencia",
-        "technology": "Tecnologías utilizadas",
-        "experience-1": {
-          "range": "Oct. 2023 - Sep. 2026",
-          "years": "3 años",
-          "company": "Empathy.co",
-          "mode": "· Remote",
-          "title": "Frontend Developer",
-          "description": "Desempeñé el puesto de Frontend Developer en Empathy.co, participando de forma simultánea en más de cuatro proyectos.",
-          "goal-1": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa.",
-          "goal-2": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto.",
+      "description": "Soy Jonathan, ingeniero informático con mas de 3 años de experiencia como Frontend Developer, además de tener varios proyectos como freeland trabajando en la parte de frontend y backend."
+    },
+    "experience": {
+      "comment-1": "// 01 · Mi experiencia",
+      "technology": "Tecnologías utilizadas",
+      "file-name": "carrer.log",
+      "all": [
+        {
+          "range": "Sep. 2026 - Actuality",
+          "years": "",
+          "company": "",
+          "mode": "Remote",
+          "type": "Clientes y Colaboraciones",
+          "title": "Freeland FullStack Developer",
+          "description": "Gracias a mi experiencia puedo realizar proyectos por mi cuenta, donde me encargo de la parte Frontend y Backend.",
+          "goals": [
+            {
+              "name": "Me encargo de buscar clientes que necesiten una web coorporativa así como tiendas, además de encargarme de proporcionar el diseño antes de escribir una línea de código."
+            },
+            {
+              "name": "Me encargo de elavorar un presupuesto de acorde al proyecto que tengo entre manos."
+            },
+            {
+              "name": "Una vez terminada la web solicitada también hago mantenimiento de esas webs si el cliente así lo solicita."
+            }
+          ],
           "technologies": [
             {
               "name": "Vue"
             },
             {
               "name": "Nuxt"
+            },
+            {
+              "name": "Java"
+            },
+            {
+              "name": "Docker"
+            },
+            {
+              "name": "Jira"
             },
             {
               "name": "JavaScript"
@@ -53,8 +75,156 @@
               "name": "Cypress"
             }
           ]
+        },
+        {
+          "range": "Oct. 2023 - Sep. 2026",
+          "years": "3 años",
+          "company": "Empathy.co",
+          "mode": "· Remote",
+          "type": "Empresarial",
+          "title": "Associate Frontend Software Developer",
+          "description": "Desempeñé el puesto de Associate Frontend Software Developer en Empathy.co, participando de forma simultánea en más de cuatro proyectos.",
+          "goals": [
+            {
+              "name": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa."
+            },
+            {
+              "name": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto."
+            }
+          ],
+          "technologies": [
+            {
+              "name": "Vue"
+            },
+            {
+              "name": "Nuxt"
+            },
+            {
+              "name": "JavaScript"
+            },
+            {
+              "name": "TypeScript"
+            },
+            {
+              "name": "Jira"
+            },
+            {
+              "name": "AWS"
+            },
+            {
+              "name": "Cloudflare"
+            },
+            {
+              "name": "Jest"
+            },
+            {
+              "name": "Vitest"
+            },
+            {
+              "name": "Playwright"
+            },
+            {
+              "name": "Cypress"
+            }
+          ]
+        },
+        {
+          "range": "May. 2023 - Oct. 2023",
+          "years": "6 meses",
+          "company": "Empathy.co",
+          "mode": "· Remote",
+          "type": "Empresarial",
+          "title": "Academy Fellow Software Engineer",
+          "description": "Desempeñé el puesto de Academy Fellow Software Engineer en Empathy.co, en mi experiencia en este puesto desempeñé el trabajo de FullStack Developer.",
+          "goals": [
+            {
+              "name": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa."
+            },
+            {
+              "name": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto."
+            }
+          ],
+          "technologies": [
+            {
+              "name": "Vue"
+            },
+            {
+              "name": "Nuxt"
+            },
+            {
+              "name": "JavaScript"
+            },
+            {
+              "name": "TypeScript"
+            },
+            {
+              "name": "Jira"
+            },
+            {
+              "name": "AWS"
+            },
+            {
+              "name": "Cloudflare"
+            },
+            {
+              "name": "Jest"
+            },
+            {
+              "name": "Vitest"
+            },
+            {
+              "name": "Playwright"
+            },
+            {
+              "name": "Cypress"
+            }
+          ]
+        },
+        {
+          "range": "Sept. 2020 - Aug. 2021",
+          "years": "11 meses",
+          "company": "",
+          "mode": "",
+          "type": "Clientes y Colaboraciones",
+          "title": "Tutor Privado",
+          "description": "Realicé tutorias privadas para los compañeros de clase que tenían dificultades con las materias que ya había cursado para poder ayudarlos con esas asignaturas.",
+          "goals": [
+            {
+              "name": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa."
+            },
+            {
+              "name": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto."
+            }
+          ],
+          "technologies": [
+            {
+              "name": "Java"
+            },
+            {
+              "name": "C++"
+            },
+            {
+              "name": "JavaScript"
+            },
+            {
+              "name": "TypeScript"
+            },
+            {
+              "name": "C"
+            }
+          ]
         }
-      }
+      ]
+    },
+    "proyect": {
+      "comment": "// 02 · Mis proyectos",
+      "all": [
+
+      ]
+    },
+    "contact": {
+      "comment": "// 03 · Contáctame",
+      "title": ""
     }
   }
 }

@@ -11,12 +11,12 @@
   /* colors */
   --color-main: #f6f6f1e8;
   --color-gray: #1a1a1d;
-  --color-terciary: #0ea5e9;
+  --color-secondary: #0ea5e9;
   --color-black: #08080a;
   --color-black-light: #131315;
   --color-black-extra-light: #34343A;
   --color-light: #78787e;
-  --color-secondary: #c23f39;
+  --color-terciary: #c23f39;
 }
 
 @utility guide {

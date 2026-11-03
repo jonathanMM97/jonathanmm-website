@@ -4,17 +4,20 @@
   >
     <Header class="fixed top-0 w-full z-9" />
     <div
-      class="relative max-w-300 flex flex-col z-1 w-fit h-full bg-grey-500 pt-40"
+      class="relative max-w-300 flex flex-col z-1 w-fit h-full bg-grey-500 py-40"
     >
       <Hero />
-      <Experiencia />
+      <Experience />
+      <Proyect />
     </div>
+    <Footer />
   </div>
 </template>
 
 <script setup lang="ts">
 import Hero from './components/hero.vue'
-import Experiencia from './components/experiencia.vue'
+import Experience from './components/experiencia.vue'
+import Footer from '~/components/footer.vue'
 
 const { t } = useI18n()
 

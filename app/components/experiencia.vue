@@ -1,21 +1,22 @@
 <template>
-  <SectionName :comment="t('home.hero.experience.comment-1')" />
-  <ExperienceSection :has-more="false" />
+  <div class="flex flex-col gap-1 py-30 my-30 border-y border-light">
+    <SectionName :comment="t('home.experience.comment-1')" />
+    <ExperienceSection
+      v-for="(experience, index) in tm('home.experience.all') as Experience[]"
+      :experience="experience"
+      :number="index + 1"
+      :has-more="
+        Array.isArray(tm('home.experience.all'))
+          ? (tm('home.experience.all') as Experience[]).length - 1 !== index
+          : false
+      "
+    />
+  </div>
 </template>
 
 <script setup lang="ts">
 import SectionName from '~/components/section-name.vue'
+import type { Experience } from '~/utils'
 
-const logos = [
-  'vue-logo',
-  'nuxt-logo',
-  'jekyll-logo',
-  'tailwind-logo',
-  'javascript-logo',
-  'typescript-logo',
-  'cloudflare-logo',
-  'aws-logo',
-]
-
-const { t } = useI18n()
+const { t, tm } = useI18n()
 </script>
