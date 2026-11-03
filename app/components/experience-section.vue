@@ -2,16 +2,16 @@
   <div
     class="flex font-main gap-20 relative rounded-3xl py-6"
     :class="{
-      [`after:absolute after:left-1 after:top-20 after:h-[85%] after:rounded-bl-[40px] after:content-[''] after:border-b-2 after:border-l-2 after:border-light`]:
+      [`after:absolute after:left-1 after:top-20 after:h-[85%] after:content-[''] after:border-l-2 after:border-light`]:
         hasMore,
     }"
   >
     <SectionName class="self-start pt-6" />
     <div
-      class="absolute after:absolute after:top-7 after:left-6 after:w-13 after:rounded-bl-[40px] after:border-b-2 after:border-l-2 after:border-light after:content-['']"
+      class="absolute after:absolute after:top-7 after:left-6 after:w-13 after:border-b-2 after:border-light after:content-['']"
     />
     <article
-      class="w-full flex flex-col border-black-extra-light shadow-sm shadow-secondary border-2 rounded-2xl text-white"
+      class="w-full flex flex-col border-black-extra-light shadow-sm hover:shadow-lg transition shadow-secondary border-2 rounded-2xl text-white"
     >
       <div
         class="flex text-[12px] justify-between items-center bg-gray p-4 rounded-t-2xl"
@@ -40,11 +40,7 @@
               <span class="text-[14px] text-secondary">{{
                 rt(experience.range)
               }}</span>
-              <span
-                v-if="rt(experience.years)"
-                class="p-1 border text-[12px] border-light text-light"
-                >{{ rt(experience.years) }}</span
-              >
+              <Label v-if="rt(experience.years)" :name="rt(experience.years)" />
             </div>
             <div class="flex flex-col">
               <span class="text-[24px]">{{ rt(experience.title) }}</span>
@@ -73,9 +69,7 @@
           <span>{{ t('home.experience.technology') }}</span>
           <div class="flex gap-2">
             <div v-for="technology in experience.technologies">
-              <span class="p-1 border text-[12px] border-light text-light">{{
-                rt(technology.name)
-              }}</span>
+              <Label :name="rt(technology.name)" has-hover />
             </div>
           </div>
         </div>

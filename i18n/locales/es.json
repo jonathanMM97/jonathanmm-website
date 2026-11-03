@@ -218,13 +218,24 @@
     },
     "proyect": {
       "comment": "// 02 · Mis proyectos",
-      "all": [
-
-      ]
+      "all": []
     },
     "contact": {
       "comment": "// 03 · Contáctame",
       "title": ""
     }
+  },
+  "footer": {
+    "rights": "© 2026 Jonathan Muñoz Morales",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/jonathanmunnoz/"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/jonathanMM97"
+      }
+    ]
   }
 }
