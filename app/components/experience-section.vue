@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex font-main gap-20 relative rounded-3xl py-6"
+    class="fade-element flex font-main gap-20 relative rounded-3xl py-6"
     :class="{
       [`after:absolute after:left-1 after:top-20 after:h-[85%] after:content-[''] after:border-l-2 after:border-light`]:
         hasMore,
