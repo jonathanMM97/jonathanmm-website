@@ -1,11 +1,40 @@
 @import 'tailwindcss';
 
+@source "../../../i18n";
+
 @theme {
   /* fonts families */
   --font-main: 'Montserrat', sans-serif;
   --font-secondary: 'Cormorant Garamond', sans-serif;
+  --font-terciary: 'JetBrains Mono', 'sans-serif';
 
   /* colors */
   --color-main: #f6f6f1e8;
-  --color-black: #08080A;
+  --color-gray: #1a1a1d;
+  --color-secondary: #0ea5e9;
+  --color-black: #08080a;
+  --color-black-light: #131315;
+  --color-black-extra-light: #34343a;
+  --color-light: #78787e;
+  --color-terciary: #c23f39;
+}
+
+@utility guide {
+  list-style-type: '- ';
+}
+
+@utility fade-element {
+  animation: fade ease;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

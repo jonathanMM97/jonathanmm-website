@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
+import svgLoader from 'vite-svg-loader'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -32,13 +33,18 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), svgLoader()],
   },
 
   fonts: {
     families: [
       {
         name: 'Montserrat',
+        provider: 'google',
+        weights: ['300', '400', '700', '800'],
+      },
+      {
+        name: 'JetBrains Mono',
         provider: 'google',
         weights: ['300', '400', '700', '800'],
       },
@@ -57,5 +63,6 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
     },
+    compilation: { strictMessage: false },
   },
 })

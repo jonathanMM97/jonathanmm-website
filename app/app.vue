@@ -1,25 +1,23 @@
 <template>
   <div
-    class="bg-black text-white w-full h-screen relative z-0 justify-center items-center flex flex-col"
+    class="bg-black text-white w-full h-full relative z-0 justify-center items-center flex flex-col"
   >
     <Header class="fixed top-0 w-full z-9" />
-    <div class="relative flex flex-col z-1 w-fit items-center bg-grey-500">
-      <span class="text-3xl uppercase font-main max-w-[500px] text-center">{{
-        t('home.first')
-      }}</span>
-      <div class="flex gap-4 py-4 border-y border-gray-300 my-4">
-        <Maintenance class="w-40 h-40 text-white" />
-      </div>
-      <span class="text-3xl uppercase font-main max-w-[500px] text-center">{{
-        t('home.second')
-      }}</span>
+    <div
+      class="relative max-w-300 flex flex-col z-1 w-fit h-full bg-grey-500 py-40"
+    >
+      <Hero />
+      <Experience />
+      <Proyect />
     </div>
+    <Footer />
   </div>
 </template>
 
 <script setup lang="ts">
-import Image from '~/components/image.vue'
-import Maintenance from '~/components/icons/maintenance.vue'
+import Hero from './components/hero.vue'
+import Experience from './components/experiencia.vue'
+import Footer from '~/components/footer.vue'
 
 const { t } = useI18n()
 
