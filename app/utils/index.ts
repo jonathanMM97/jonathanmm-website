@@ -1,5 +1,5 @@
 interface objecti18n {
-  name: string;
+  name: string
 }
 
 export interface Experience {

@@ -1,7 +1,7 @@
 <template>
   <span
     class="p-1 border text-[12px] border-light text-light transition cursor-default"
-    :class="{'hover:border-secondary hover:text-secondary' : hasHover}"
+    :class="{ 'hover:border-secondary hover:text-secondary': hasHover }"
   >
     {{ name }}
   </span>

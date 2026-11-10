@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="flex gap-2 pt-4 justify-between items-center"
-  >
+  <header class="flex gap-2 pt-4 justify-between items-center">
     <div
       class="absolute inset-0 bg-black mask-[linear-gradient(to_bottom,black_70%,transparent_100%)] pointer-events-none"
     />
