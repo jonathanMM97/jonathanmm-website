@@ -40,16 +40,16 @@
           "mode": "Remote",
           "type": "Clientes y Colaboraciones",
           "title": "Freeland FullStack Developer",
-          "description": "Gracias a mi experiencia puedo realizar proyectos por mi cuenta, donde me encargo de la parte Frontend y Backend.",
+          "description": "Gracias a mi experiencia profesional, puedo desarrollar proyectos de forma independiente, abarcando tanto el desarrollo Frontend como Backend.",
           "goals": [
             {
-              "name": "Me encargo de buscar clientes que necesiten una web coorporativa así como tiendas, además de encargarme de proporcionar el diseño antes de escribir una línea de código."
+              "name": "Identifico las necesidades de cada cliente y desarrollo soluciones a medida, desde páginas web corporativas hasta tiendas online. También me ocupo de definir la propuesta visual y diseñar la experiencia de usuario antes de comenzar el desarrollo. (Figma)"
             },
             {
-              "name": "Me encargo de elavorar un presupuesto de acorde al proyecto que tengo entre manos."
+              "name": "Elaboro presupuestos personalizados, adaptados al alcance, la complejidad y los requisitos de cada proyecto."
             },
             {
-              "name": "Una vez terminada la web solicitada también hago mantenimiento de esas webs si el cliente así lo solicita."
+              "name": "Una vez finalizado el desarrollo, ofrezco servicios de mantenimiento y evolución de las aplicaciones web para garantizar su correcto funcionamiento y adaptarlas a las necesidades futuras del cliente."
             }
           ],
           "technologies": [
@@ -104,10 +104,13 @@
           "description": "Desempeñé el puesto de Associate Frontend Software Developer en Empathy.co, participando de forma simultánea en más de cuatro proyectos.",
           "goals": [
             {
-              "name": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa."
+              "name": "Contribui con el desarrollo y mantenimiento de un portal de documentación corporativo ampliamente conocido dentro de la organización, por su claridad y estructura, que fue galardonado como mejor diseño en 2023."
             },
             {
-              "name": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto."
+              "name": "Realicé mantenimiento y creación de nuevas features de todas las webs de la empresa junto con dos personas más."
+            },
+            {
+              "name": "Dearrollé funcionalidades críticas bajo metodologías ágiles, coordinandome con producto para asegurar entregas rápidas y de calidad. Tras su desarrollo y aceptación en el mercado me encargué de darle estabilidad a los productos, refactorizando código y estandarizando procesos para mejorar el mantenimiento a largo plazo."
             }
           ],
           "technologies": [
@@ -156,10 +159,13 @@
           "description": "Desempeñé el puesto de Academy Fellow Software Engineer en Empathy.co, en mi experiencia en este puesto desempeñé el trabajo de FullStack Developer.",
           "goals": [
             {
-              "name": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa."
+              "name": "Lideré el desarrollo de una prueba de concepto (PoC) para evaluar la incorporación de visualizaciones 3D a los productos de la empresa, explorando nuevas posibilidades frente a las soluciones 2D existentes."
             },
             {
-              "name": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto."
+              "name": "Coordiné y participé en el desarrollo de una aplicación basada en Vue.js y Three.js, junto con otros dos desarrolladores, para integrar capacidades de visualización 3D y ampliar las funcionalidades de la solución existente."
+            },
+            {
+              "name": "El éxito de la prueba de concepto impulsó su evolución hacia una solución comercial, que posteriormente se incorporó a la oferta de productos de la empresa y llegó a implantarse en clientes."
             }
           ],
           "technologies": [
@@ -176,25 +182,10 @@
               "name": "TypeScript"
             },
             {
-              "name": "Jira"
-            },
-            {
-              "name": "AWS"
+              "name": "ThreeJs"
             },
             {
               "name": "Cloudflare"
-            },
-            {
-              "name": "Jest"
-            },
-            {
-              "name": "Vitest"
-            },
-            {
-              "name": "Playwright"
-            },
-            {
-              "name": "Cypress"
             }
           ]
         },
@@ -208,10 +199,10 @@
           "description": "Realicé tutorias privadas para los compañeros de clase que tenían dificultades con las materias que ya había cursado para poder ayudarlos con esas asignaturas.",
           "goals": [
             {
-              "name": "Estuve implicado en el mantenimiento y la mejora de las páginas web corporativas, la gestión y evolución de la plataforma de personalización del producto para clientes, así como el desarrollo e implementación de nuevas funcionalidades para el producto principal de la empresa."
+              "name": "Realicé tutorias personalizadas a alumnos universitarios para cuatro lenguajes diferentes de programación."
             },
             {
-              "name": "Trabajé siguiendo metodologías ágiles, colaborando con distintos equipos para planificar y desarrollar soluciones de manera iterativa. Posteriormente, la dinámica de trabajo evolucionó hacia un modelo basado en la demanda directa de los clientes, priorizando sus necesidades y adaptando el desarrollo a los requisitos específicos de cada proyecto."
+              "name": "Preparé cada sesión según dificultad y lenguaje."
             }
           ],
           "technologies": [
