@@ -4,7 +4,7 @@
   >
     <Header class="fixed top-0 w-full z-9" />
     <div
-      class="relative max-w-300 flex flex-col z-1 w-fit h-full bg-grey-500 py-40"
+      class="relative max-w-300 flex flex-col z-1 w-fit h-full bg-grey-500 pt-50 pb-40"
     >
       <Hero />
       <Experience />

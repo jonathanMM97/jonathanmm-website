@@ -11,7 +11,7 @@
       class="absolute after:absolute after:top-7 after:left-6 after:w-13 after:border-b-2 after:border-light after:content-['']"
     />
     <article
-      class="w-full flex flex-col border-black-extra-light shadow-sm hover:shadow-lg transition shadow-secondary border-2 rounded-2xl text-white"
+      class="element-translate fade w-full flex flex-col border-black-extra-light shadow-sm hover:shadow-lg transition shadow-secondary border-2 rounded-2xl text-white"
     >
       <div
         class="flex text-[12px] justify-between items-center bg-gray p-4 rounded-t-2xl"

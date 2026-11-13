@@ -1,5 +1,6 @@
-interface objecti18n {
+export interface objecti18n {
   name: string
+  link?: string
 }
 
 export interface Experience {
