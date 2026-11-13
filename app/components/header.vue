@@ -3,9 +3,9 @@
     <div
       class="absolute inset-0 bg-black mask-[linear-gradient(to_bottom,black_70%,transparent_100%)] pointer-events-none"
     />
-    <div class="flex relative size-25">
+    <NuxtLink class="flex relative size-25" href="/">
       <Image class="size-25!" image-url="/media/logo.png" />
-    </div>
+    </NuxtLink>
     <div class="flex flex-col mr-4 text-black relative">
       <div
         class="flex gap-1 justify-between bg-main px-4 py-2 rounded-2xl w-[71px] cursor-pointer"
