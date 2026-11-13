@@ -8,7 +8,25 @@
     "hero": {
       "comment-1": "// Hey, Soy Jonathan Muñoz Morales",
       "title": "Ingeniero Informático, especializado en <span class='text-secondary'>Frontend Developer</span>",
-      "description": "Soy Jonathan, ingeniero informático con mas de 3 años de experiencia como Frontend Developer, además de tener varios proyectos como freeland trabajando en la parte de frontend y backend."
+      "description": "Soy Jonathan, ingeniero informático con mas de 3 años de experiencia como Frontend Developer, además de tener varios proyectos como freeland trabajando en la parte de frontend y backend.",
+      "buttons": [
+        {
+          "name": "Contact",
+          "link": "#contact"
+        },
+        {
+          "name": "CV",
+          "link": "jonathan-cv.pdf"
+        },
+        {
+          "name": "LinkedIn",
+          "link": "https://www.linkedin.com/in/jonathanmunnoz/"
+        },
+        {
+          "name": "Github",
+          "link": "https://github.com/jonathanMM97"
+        }
+      ]
     },
     "experience": {
       "comment-1": "// 01 · Mi experiencia",
