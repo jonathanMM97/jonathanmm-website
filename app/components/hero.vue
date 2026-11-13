@@ -14,9 +14,17 @@
             :href="rt(button.link!)"
             target="_blank"
           >
-            <Component class="size-9" :is="dicIcon[rt(button.name) as keyof typeof dicIcon]" />
+            <Component
+              class="size-9"
+              :is="dicIcon[rt(button.name) as keyof typeof dicIcon]"
+            />
           </a>
-          <Button v-else :text="rt(button.name)" :link="rt(button.link!)" :IfDownload="rt(button.name) === 'CV'" />
+          <Button
+            v-else
+            :text="rt(button.name)"
+            :link="rt(button.link!)"
+            :IfDownload="rt(button.name) === 'CV'"
+          />
         </div>
       </div>
     </div>
